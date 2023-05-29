@@ -1,0 +1,19 @@
+1. The program starts by initializing variables for the maximum number of attempts per round (maxAttempts), the maximum number of rounds (maxRounds), the player’s score (score), and the points awarded per round (pointsPerRound).
+
+2. A Random object is created to generate random numbers and a Scanner object is created to read input from the user.
+
+3. The game enters a loop that runs for maxRounds rounds.
+
+4. At the start of each round, the number of attempts is reset to 0 and a new random number between 1 and 100 is generated for the player to guess.
+
+5. The player is prompted to enter their guess.
+
+6. The program enters a loop that runs until the player either guesses the number correctly or runs out of attempts.
+
+7. After each guess, the program checks if the guess is correct. If it is, the player is awarded points based on the number of attempts it took to guess the number and the loop exits.
+
+8. If the guess is incorrect, the program informs the player if their guess was too high or too low and prompts them to enter another guess.
+
+9. If the player fails to guess the number within maxAttempts attempts, they do not receive any points for that round.
+
+10. After all rounds have been completed, the player’s total score is displayed.
